@@ -79,3 +79,5 @@ SELECT date_part('hour', date_completed) AS hour,
   FROM evanston311
  GROUP BY hour
  ORDER BY hour;
+
+---
